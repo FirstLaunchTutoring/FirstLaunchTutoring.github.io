@@ -1,0 +1,171 @@
+@font-face {
+    font-family: ElementalEnd;
+    src: url(../font/Elemental\ End.ttf);
+}
+
+@font-face {
+    font-family: Gordita;
+    src: url(../font/Gordita\ Regular.otf);
+}
+
+
+.main {
+    width: 100%;
+    height: 6480px;
+    background-color: dimgray;
+    background-image: url(../img/new/background-02.svg);
+    background-repeat: no-repeat;
+    font-family: Gordita;
+    background-size: 100% ;
+}
+
+.container {
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    transition: color 0.5s, background-color 0.5s;
+    font-family: Gordita;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+
+}
+
+.header {
+    height: 1080px;
+}
+
+.top-nav {
+    padding: 10px;
+    height: 150px;
+}
+
+.mainlogo {
+    width: 50%;
+}
+
+.logo-container {
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+.logo {
+    padding-top: 35px;
+    margin-left: -80px;
+    height: auto;
+    float: left;
+    font-family: ElementalEnd;
+    color: white;
+    
+}
+
+.logo p1 {
+    font-size: 150%;
+}
+
+.logo p2 {
+    font-size: 125%;
+}
+
+.navbar {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 5px;
+    border: 5px solid transparent;
+
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: white;
+}
+
+.content {
+    color: white;
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 25%;
+}
+
+.section {
+    height: 500px;
+    /* border: 2px solid black; */
+    color: #5c595a;
+}
+
+.services {
+
+}
+
+.service1 {
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    background-color: white;
+    -moz-box-shadow: 10px 10px 25px #ccc;
+    -webkit-box-shadow: 10px 10px 25px #ccc;
+    box-shadow: 10px 10px 25px #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.service2 {
+    float: right;
+    width: 35%;
+    margin-right: 10%;
+    -moz-box-shadow: 10px 10px 25px #ccc;
+    -webkit-box-shadow: 10px 10px 25px #ccc;
+    box-shadow: 10px 10px 25px #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+.about-text {
+        background-color: white;
+        -moz-box-shadow: 10px 10px 25px #ccc;
+        -webkit-box-shadow: 10px 10px 25px #ccc;
+        box-shadow: 10px 10px 25px #ccc;
+        border-radius: 10px;
+        width:65%; 
+        float: left; 
+        margin-left: 10%;
+        margin-top: 50px;
+        padding: 25px;
+}
+
+.stepsvg {
+    font-family: ElementalEnd;
+}
+
+/* svg animation */
+.st110 {
+    fill: #d39fb1 !important;
+}

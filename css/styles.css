@@ -1,0 +1,125 @@
+@font-face {
+    font-family: ElementalEnd;
+    src: url(../font/Elemental\ End.ttf);
+}
+
+@font-face {
+    font-family: Gordita;
+    src: url(../font/Gordita\ Regular.otf);
+}
+
+@font-face {
+    font-family: GorditaLight;
+    src: url(../font/Gordita\ Light.otf);
+}
+
+.main {
+    background-image: url(../img/new/background-3.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+    font-family: ElementalEnd;
+    color: white;
+    text-align: center;
+}
+
+.logo #top {
+    font-size: 150%;
+}
+
+.logo #bottom {
+    font-size: 130%;
+}
+
+.welcome {
+    color:white;
+    height: 780px;
+    margin-top: 300px;
+}
+
+#box {
+    background-color: white;
+    -moz-box-shadow: 10px 10px 25px #ccc;
+    -webkit-box-shadow: 10px 10px 25px #ccc;
+    box-shadow: 0px 0px 25px #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: large;
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: #EC2490;
+    background-color: white;
+    
+}
+
+#custombtn {
+    color: white;
+    font-family: Gordita;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px;
+    transition: color 0.5s, background-color 0.5s;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#custombtn:hover {
+    color: #EC2490;
+    background-color: White;
+    text-decoration: none;
+}
+
+#custombtn2 {
+    color: #EC2490;
+    font-family: Gordita;
+    border-radius: 10px;
+    border: 2px solid #EC2490;
+    padding: 5px;
+    transition: color 0.5s, background-color 0.5s;
+    font-weight: bold;
+}
+
+#custombtn2:hover {
+    color: white;
+    background-color: #EC2490;
+    text-decoration: none;
+}
+
+p {
+    font-family: Gordita;
+}
+
+h1 {
+    font-family: Gordita;
+}
+
+h2 {
+    font-family: Gordita;
+}
+
+h3 {
+    font-family: Gordita;
+}
+
+h4 {
+    font-family: Gordita;
+}
+
+h5 {
+    font-family: Gordita;
+}
