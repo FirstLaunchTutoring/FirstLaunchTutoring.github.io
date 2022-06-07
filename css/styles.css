@@ -13,8 +13,24 @@
     src: url(../font/Gordita\ Light.otf);
 }
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
 .main {
     background-image: url(../img/new/background-3.svg);
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.mainform {
+    background-image: url(../img/new/formback.svg);
     height: 100%;
     background-repeat: no-repeat;
 
@@ -48,6 +64,7 @@
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
+    
 }
 
 .navigation a {
@@ -109,7 +126,7 @@ h1 {
 }
 
 h2 {
-    font-family: Gordita;
+    font-family: GorditaLight;
 }
 
 h3 {
@@ -122,4 +139,23 @@ h4 {
 
 h5 {
     font-family: Gordita;
+}
+
+
+
+/* Animation */
+
+.animated{
+    animation-name: bounce-7;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+
+}
+
+@keyframes bounce-7 {
+    0%   { transform: scale(1,1)        translateY(0); }
+    10%  { transform: scale(1,1)        translateY(0); }
+    30%  { transform: scale(1,1)        translateY(-15px); }
+    50%  { transform: scale(1,1)        translateY(0); }
+    100%  { transform: scale(1,1)       translateY(0px); }
 }
